@@ -1,0 +1,332 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-size: 62.5%;
+    border: 0.1px solid rgb(184, 184, 184);
+    max-width: 400px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+
+header {
+    background: black;
+    background-image: url("./assets/images/whiteTigerMobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+h1 {
+    font-family:'Fredericka the Great', cursive;
+    text-transform: uppercase;
+    line-height: 29.3px;
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 3em;
+    width: 132px;
+    height: 59px;
+    position: absolute;
+    top: 10px;
+    left: 23px;
+    
+}
+
+.hamburger {
+    position: absolute;
+    color: red;
+    z-index: 1;
+    width: 40px;
+    height: 23px;
+    top: 21px;
+    right: 21px;
+}
+
+.section1 {
+    background: #152d20;
+    padding: 1px;
+}
+
+.about_suzie img {
+    width: calc(100% - 41px);
+    height: auto;
+    margin: 40px auto;
+    display: block;
+}
+
+.about_suzie {
+    margin-bottom: 51px;
+}
+
+.section1 h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3.8em;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0px 56px 0 18px;
+}
+
+.cat_story p {
+    color: #ffffff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.8em;
+    line-height: 29px;
+    font-weight: 300;
+    margin: 20px 20px 45px 20px;
+}
+
+.button,
+.button2,
+.button3 {
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    margin: 50px 120px;
+}
+
+.button {
+    background: #ffffff;
+    }
+
+.read_more p {
+    font-family: 'CormorantGaramond', serif;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    line-height: 1.61;
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.section1 .read_more p{
+    color: #152d20;
+}
+
+.friends h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3.8em;
+    color: #152d20;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.gallery-item img{
+    float: left;
+    width: calc(100% / 2 - 25px);
+
+}
+
+.reptile {
+    margin: 40px 5px 40px 20px;
+
+}
+
+.sheep {
+    margin: 40px 20px 40px 5px;
+
+}
+
+.macaw {
+    display: none;
+}
+
+.section3 {
+    background: #152d20;
+}
+
+.about {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.about h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'CormorantGaramond', serif;
+    font-size: 2.7em;
+    font-weight: 300;
+    margin: 20px 67px 10px 67px; ;
+    display: inline-block;
+    width: calc(100% - 138px);
+}
+
+.about i {
+    color: #ffffff;
+    font-size: 5.8em;
+    margin-top: 50px
+
+}
+
+.zebras {
+    width: 100%;
+}
+
+.zebra_facts,
+.bond {
+    text-align: center;
+}
+
+.zebra_facts h2,
+.bond h2 {
+    font-family: 'Fredericka the Great', cursive;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    color: #152d20;
+    margin-top: 36px;
+    display: inline-block;
+    width: calc(100% - 83px);
+}
+
+.zebra_facts p,
+.bond p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.8em;
+    color: #1f2022;
+    line-height: 1.61;
+    margin: 20px;
+
+}
+
+.button2,
+.button3 {
+    background: #152d20;
+}
+
+.button2 p,
+.button3 p {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'CormorantGaramond', serif;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.kitten {
+    width: 100%;
+}
+
+ul {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.contact_footer {
+    background: #152d20;
+    padding: 42px 1px 20px 1px;
+}
+
+.contact_footer li {
+    text-align: center;
+    list-style: none;
+    float: left;
+
+}
+
+.contact_footer a {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'CormorantGaramond', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.contact_footer h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'CormorantGaramond', serif;
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 50px 0px 0px 0px;
+
+}
+
+.updated p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.6em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.email_input {
+    background: #ffffff;
+    width: calc(100% - 40px);
+    height: 50px;
+    vertical-align: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.email_address p {
+    font-family: 'Roboto',sans-serif;
+    color: #232323;
+    font-size: 1.8em;
+    display: inline-block;
+    margin: 12px auto;
+}
+
+.subscribe_button {
+    background: #070606;
+    width: calc(100% - 40px);
+    height: 50px;
+    vertical-align: center;
+    text-align: center;
+    margin: 12px 20px 20px 20px;
+}
+
+.subscribe p {
+    text-transform: uppercase;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.8em;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    margin: 12px auto;
+
+}
+
+.contact_info p {
+    margin: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.4em;
+}
+
+footer {
+    background: #000000;
+    margin: 0;
+    width: 100%;
+    height: 44px;
+    text-align: center;
+}
+
+footer p {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.4em;
+    font-family: 'Roboto',sans-serif;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+/* Responsive styling */
+
+@media screen and (min-width: 401px) {
+    body {
+        max-width: 768px;
+    }
+
+    .macaw {
+        display: block;
+    }
+}
