@@ -18,19 +18,53 @@
     <!-- Header starts here -->
     <header>
         <div class="wrapper clearfix">
-            <div class="hamburger_menu">
-                <img class="hamburger" src="./assets/icons/hamburger-menu.svg" alt="hamburger icon">
+            <div class="logo">
+                <h1>Animal Refuge</h1>
             </div>
-            <h1>Animal Refuge</h1>
+            <img src="assets/images/whiteTigerMobile.jpg" alt="White tiger lying down looking at the camera" class="mobile-background">
+            <img src="assets/images/whiteTiger.jpg" alt="White tiger lying down looking at the camera" class="desk-background">
+            <img class="hamburger" src="./assets/icons/hamburger-menu.svg" alt="hamburger icon">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-snapchat-ghost"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <!-- Main starts here -->
     <main>
         <article>
             <section class="section1">
-                <div class="about_suzie clearfix">
+                <div class="about-suzie clearfix">
                     <img src="./assets/images/cat.jpg" alt="image of a cat looking at the camera" class="suzie">
-                    <div class="cat_story">
+                    <div class="cat-story clearfix">
                         <h2>Suzie's Story</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat
@@ -39,12 +73,12 @@
                             eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis
                             dapibus nulla pulvinar tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                             pulvinar tortor nulla el. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar
-                            tortor nulla elementum eleifend.
+                            tortor nulla.
                         </p>
-                    </div>
-                    <div class="button">
-                        <div class="read_more">
-                            <p>Read More</p>
+                        <div class="button">
+                            <div class="read-more">
+                                <a href="#">Read More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -64,72 +98,82 @@
                 </div>
             </section>
             <section class="section3">
-                <div class="about">
-                    <i class="fas fa-paw paw"></i>
-                    <h2>Animal spotlight</h2>
-                    <i class="fas fa-calendar-check calendar"></i>
-                    <h2>Events</h2>
-                    <i class="fas fa-shopping-bag bag"></i>
-                    <h2>Merch</h2>
+                <div class="about clearfix">
+                    <div class="paw-container">
+                        <i class="fas fa-paw paw"></i>
+                        <div class="spotlight">
+                            <h2>Animal spotlight</h2>
+                        </div>
+                    </div>
+                    <div class="calendar-container">
+                        <i class="fas fa-calendar-check calendar"></i>
+                        <h2>Events</h2>
+                    </div>
+                    <div class="bag-container">
+                        <i class="fas fa-shopping-bag bag"></i>
+                        <h2>Merch</h2>
+                    </div>
                 </div>
             </section>
             <section class="section4">
-                <div class="facts">
+                <div class="facts clearfix">
                     <img src="assets/images/twoZebras.jpg" alt="two zebras standing" class="zebras">
-                    <div class="zebra_facts">
-                        <h2>Facinating facts about zebras</h2>
+                    <div class="zebra-facts">
+                        <div class="zebra-header">
+                            <h2>Fascinating facts about zebras</h2>
+                        </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend.
                             Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus.
                             Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
-                    </div>
-                    <div class="button2">
-                        <div class="read_more">
-                            <p>Read more</p>
+                        <div class="button2">
+                            <div class="read-more">
+                                <a href="#">Read more</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="section5">
-                <div class="bond">
+                <div class="bond clearfix">
                     <img src="assets/images/kitten.jpg" alt="kitten high fiving a human" class="kitten">
                     <!--Paolo Nicolello 512467 from Unsplash -->
-                    <h2>The bond between animals and humans</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend.
-                        Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus.
-                        Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
-                </div>
-                <div class="button3">
-                    <div class="read_more">
-                        <p>Read more</p>
+                    <div class="bond-info">
+                        <div class="bond-header">
+                            <h2>The bond between animals and humans</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend.
+                            Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus.
+                            Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
+                        <div class="button3">
+                            <div class="read-more">
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
             </section>
         </article>
         </div>
-        <div class="contact_footer clearfix">
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="updated">
+        <div class="contact-footer clearfix">
+            <div class="footer-nav">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="subscription clearfix">
                 <h2>Stay updated</h2>
                 <p>Subscribe to our newsletter to stay updated</p>
+                <form>
+                    <label for="email" name="email" class="visuallyHidden">email</label>
+                    <input type="email" id="email" name="email" placeholder="email address" required>
+                    <button type="submit" name="subscribe" class="subscribe-button">Subscribe</button>
+                </form>
             </div>
-            <div class="email_input">
-                <div class="email_address">
-                    <p>email address</p>
-                </div>
-            </div>
-            <div class="subscribe_button">
-                <div class="subscribe">
-                    <p>subscribe</p>
-                </div>
-            </div>
-            <div class="contact_info">
+            <div class="contact-info">
                 <h2>Contact</h2>
                 <p>info@email.com | 123 - 456 - 7890</p>
                 <p>123 some road, Toronto,ON</p>
